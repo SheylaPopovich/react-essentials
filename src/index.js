@@ -6,7 +6,11 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-React.createElement("h1", {style: { color:"blue"} }, "Heyyyy Everyone!")
+<ul>
+  <li>Monday</li>
+  <li>Tuesday</li>
+  <li>Wednesday</li>
+</ul>
 );
 
 
